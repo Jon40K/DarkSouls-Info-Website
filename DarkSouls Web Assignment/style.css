@@ -1,0 +1,190 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Home {
+    background-image: url("Images/Ds.png")
+}
+
+#Ds1 {
+    background-image: url("Images/FireLinkShrine.png")
+}
+
+#Ds2 {
+    background-image: url("Images/Majula.jpg");
+}
+
+#Ds3 {
+    background-image: url("Images/Firelink_Shrine_\(DSIII\)_-_01.jpg");
+}
+
+
+#NavigationBar {
+    background-color: black;
+    display: flex;                /* MAKE NAV A FLEXBOX */
+    align-items: stretch;          /* Buttons match image height */
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#MainInfo {
+    background: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 85%;
+    align-content: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    min-height: 100vh;
+    
+}
+
+.NavButton {
+    background-color: black;
+    color: white;
+    flex: 1;
+    font-size: 18px;
+    margin: 0px;
+    border: none;
+    border-right: solid;
+    border-left: solid;
+    border-width: 4px;
+    border-color: black;
+    padding: 1rem 2rem;
+    height: 100%;
+    
+}
+
+#NavButtonContainer {
+    width: 80%;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#DarkBrand {
+    width: 100%;
+    height: auto;
+    min-width: 60px;
+}
+
+h2 {
+    padding: 15px;
+    background-color: black;
+    border: solid #666362 3px;
+    color: white;
+}
+
+#PageFooter {
+    background-color: black;
+    color: white;
+    display: flex;                /* MAKE NAV A FLEXBOX */
+    justify-content: flex-start;
+    padding: 0 1rem;
+    margin-bottom: 0%;
+    margin-top: 0px;
+    height: 54px;
+    align-content: center;
+}
+
+a {
+    color: white;
+}
+
+.PopPages {
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 3%;
+    color: white;
+    border: solid #666362 3px;
+    background: #804A00;
+}
+
+.DropDownList {
+    position: relative;
+}
+
+.DropDownList {
+    display: none;
+    position: absolute;
+    min-width: 10.5%;
+}
+
+.DropDownList a {
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.DropDownList a:hover {
+    background: #804A00;
+}
+
+.DropDownList a:active {
+    background: #666362;
+}
+
+.DropDownListMaker:hover .DropDownList {
+    display: block;
+}
+
+button a {
+    text-decoration: none;
+}
+
+#HomeButton {
+    margin-left: 20%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    background: black;
+    border: solid 3px #666362;
+    width: fit-content;
+    padding: 7px;
+    color: #DD8036;
+}
+
+ul {
+    color: white;
+    background: black;
+    max-width: 60%;
+    border: solid 3px #666362;
+
+}
+
+table {
+    background: black;
+    color: white;
+    border: solid 3px #666362;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 8px;
+}
+
+td {
+    border: solid 3px #666362;
+    padding: 8px;
+}
